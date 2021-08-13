@@ -6,41 +6,29 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 007F4E7D7DB28FA79515A289411032C3 /* Build configuration list for PBXAggregateTarget "TestTwo" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = TestTwo;
-			productName = TestTwo;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		091402FFE1B8DA7A56BE29419634F942 /* Pods-TestTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C00E1F6FC38A637843B6D329AA40E /* Pods-TestTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		167124124D3D893AF5060148CC733A87 /* Pods-TestTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF5B3195CCD878210AC626CCCCFA6 /* Pods-TestTwo_Example-dummy.m */; };
-		E6FFCF620149578D0DE73AA2564B5DBD /* Pods-TestTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5981FB8529901F95662D40A84769F056 /* Pods-TestTwo_Tests-dummy.m */; };
-		E7833FAF26C66AEE00118A36 /* ZGRMyTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7833FAD26C66AEE00118A36 /* ZGRMyTwoViewController.m */; };
-		E7833FB026C66AEE00118A36 /* ZGRMyTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7833FAD26C66AEE00118A36 /* ZGRMyTwoViewController.m */; };
-		E7833FB126C66AEE00118A36 /* ZGRMyTwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7833FAE26C66AEE00118A36 /* ZGRMyTwoViewController.h */; };
-		E7833FB226C66AEE00118A36 /* ZGRMyTwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7833FAE26C66AEE00118A36 /* ZGRMyTwoViewController.h */; };
+		091402FFE1B8DA7A56BE29419634F942 /* Pods-TestTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1318498781C524FDC9165CC95050E05B /* TestTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A2A1AABC79D5115A0AD5F49DBAF607 /* TestTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		167124124D3D893AF5060148CC733A87 /* Pods-TestTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */; };
+		5D6BE798B492E959EFF6C4761E8061CA /* ZGRMyTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE1F2968178C99ECDAEF98C8D638E57 /* ZGRMyTwoViewController.m */; };
+		BAA97881129BE9B507E0C2235BDFCBBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E6FFCF620149578D0DE73AA2564B5DBD /* Pods-TestTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B3A7223BF5F08EB32C04BF1C0B7003 /* Pods-TestTwo_Tests-dummy.m */; };
+		E791049E4EE0BE9FA11709BFD15D79E7 /* ZGRMyTwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D358AD604C63661D6729B83A1C5E32D9 /* ZGRMyTwoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF026BFB11477BA881457A117DBEDED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F1C921B55CC55217E3615B133D64DE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F72C066845D939BA86A407BC33FD801A /* Pods-TestTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EDAFF698B5EE779796A14019A7BA4B /* Pods-TestTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F340DEC29AAA4B4C126F9A639A920A14 /* TestTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717C885380A9805CB865EC8B03982699 /* TestTwo-dummy.m */; };
+		F72C066845D939BA86A407BC33FD801A /* Pods-TestTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C36F633295394C1D8C791D1ECCFC80 /* Pods-TestTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28E42FD03618E990339C74E74294FB7B /* PBXContainerItemProxy */ = {
+		0C3B78AA9D03C30EA765519AC6BB80A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98AB16A34AC4F736A0AF407BD58EDF59;
 			remoteInfo = "Pods-TestTwo_Example";
 		};
-		2FE00CCAF20F0350341B638B8504568F /* PBXContainerItemProxy */ = {
+		3B2FE95990ED68B7068D4CC376BFA3DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,33 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E9C883CA4F3B7A40CE0415837C17FB7 /* Pods-TestTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1344A0E031FE2CF3B335E77D09B05611 /* Pods-TestTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E9B8FF34D8265130289E0C382A05BE8 /* Pods-TestTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55EDAFF698B5EE779796A14019A7BA4B /* Pods-TestTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5981FB8529901F95662D40A84769F056 /* Pods-TestTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Tests-dummy.m"; sourceTree = "<group>"; };
-		61FCD278929EE6454D6F7358423A56C0 /* Pods-TestTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		658AE21519A9C59C02C75CE31B843124 /* Pods-TestTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Example.modulemap"; sourceTree = "<group>"; };
+		062C6A2AF45C24E0289F1F61FB5F4BE0 /* TestTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF8AD2F4606938CC875FF955F50CAB2 /* TestTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestTwo.modulemap; sourceTree = "<group>"; };
+		1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Example-dummy.m"; sourceTree = "<group>"; };
+		1F55EF1FC758162B1B1885307D8E1AF6 /* TestTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestTwo-Info.plist"; sourceTree = "<group>"; };
+		3836C5F808052D3974BBCFA1FC718742 /* TestTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestTwo-prefix.pch"; sourceTree = "<group>"; };
+		38A2A1AABC79D5115A0AD5F49DBAF607 /* TestTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestTwo-umbrella.h"; sourceTree = "<group>"; };
+		3962CC82309CFA8CFC5858CC29B115DC /* Pods-TestTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39685810BF244CD8B243469435F7F116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		43DFFE4B637409B238DED434CF6320AA /* Pods-TestTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Example.modulemap"; sourceTree = "<group>"; };
+		59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		65C36F633295394C1D8C791D1ECCFC80 /* Pods-TestTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		717C885380A9805CB865EC8B03982699 /* TestTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestTwo-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EE07A9EC720BD59BFA8B45F478C0321 /* Pods-TestTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		83ED88C3818519F11AEAB22E7E6ECBEE /* Pods-TestTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		90013B0A6F0EE1A989B793AF079C6B80 /* Pods-TestTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B21D16C591E3DE5D994B822F8293C5D4 /* Pods-TestTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-Info.plist"; sourceTree = "<group>"; };
-		B2DA4B5576FD3A31BE98F9AB445BCD78 /* Pods-TestTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-Info.plist"; sourceTree = "<group>"; };
-		B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6BD3C4C1301DE585265F124BDDF10F /* TestTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.debug.xcconfig; sourceTree = "<group>"; };
-		CF88D106467C526D3D09F1B246268893 /* TestTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D46C00E1F6FC38A637843B6D329AA40E /* Pods-TestTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Example-umbrella.h"; sourceTree = "<group>"; };
-		DE13A96FCA08056C94D1829E1CBB7795 /* Pods-TestTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DEDAF5B3195CCD878210AC626CCCCFA6 /* Pods-TestTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Example-dummy.m"; sourceTree = "<group>"; };
-		DFB5BD8E0B4C090D6CA5B406D800CC18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E7833FAD26C66AEE00118A36 /* ZGRMyTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGRMyTwoViewController.m; sourceTree = "<group>"; };
-		E7833FAE26C66AEE00118A36 /* ZGRMyTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGRMyTwoViewController.h; sourceTree = "<group>"; };
-		F0D3902E8C880C0047110A4364C5AEA0 /* TestTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.release.xcconfig; sourceTree = "<group>"; };
-		F176384979CEFBBD695B7A7781A8D6D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FC271AE5D1F0789C896644C3A0423B4A /* Pods-TestTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Tests.modulemap"; sourceTree = "<group>"; };
+		760ED5B807E328D7B982B8DBF821FE78 /* TestTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.debug.xcconfig; sourceTree = "<group>"; };
+		7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestTwo.framework; path = TestTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9274E89E680BA39172A06315345CD8 /* Pods-TestTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-Info.plist"; sourceTree = "<group>"; };
+		9BE0A2BB8B6A6DB3103966999ADE1874 /* Pods-TestTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE6226CB1B27A4D5D78B3788EAFD5B8D /* TestTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.release.xcconfig; sourceTree = "<group>"; };
+		B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestTwo_Tests.framework; path = "Pods-TestTwo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B414C423BCE65035057C3231B0F05498 /* Pods-TestTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BBAD43217EF3DBDBC77B276BE3B92B7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestTwo_Example.framework; path = "Pods-TestTwo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB3AC4433E42201D74C89FA86B7BB71 /* Pods-TestTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9518967382D3C09308077B4D922B20D /* Pods-TestTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-Info.plist"; sourceTree = "<group>"; };
+		D048829E0486EECE0112BB7A602BCA1F /* Pods-TestTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0B3A7223BF5F08EB32C04BF1C0B7003 /* Pods-TestTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Tests-dummy.m"; sourceTree = "<group>"; };
+		D2B598D9B2E40860DE9EA63C9619ED26 /* Pods-TestTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D358AD604C63661D6729B83A1C5E32D9 /* ZGRMyTwoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGRMyTwoViewController.h; path = TestTwo/Classes/ZGRMyTwoViewController.h; sourceTree = "<group>"; };
+		D83C7C594C921C77C788E4EB1B6237B5 /* Pods-TestTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECFD85698689FAAD5948126B044BC24B /* Pods-TestTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Tests.modulemap"; sourceTree = "<group>"; };
+		FFE1F2968178C99ECDAEF98C8D638E57 /* ZGRMyTwoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGRMyTwoViewController.m; path = TestTwo/Classes/ZGRMyTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,32 +91,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94EB93DAAA227AB90062CB56E0272FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA97881129BE9B507E0C2235BDFCBBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		064DD558D573407BDAF360E74350421A /* Products */ = {
+		19CFE3613E4E5013A0BF3011C4596A84 /* Pods-TestTwo_Example */ = {
 			isa = PBXGroup;
 			children = (
-				BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */,
-				B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		36310916002B7AD2AA7EB0AB962E7A02 /* Pods-TestTwo_Example */ = {
-			isa = PBXGroup;
-			children = (
-				658AE21519A9C59C02C75CE31B843124 /* Pods-TestTwo_Example.modulemap */,
-				61FCD278929EE6454D6F7358423A56C0 /* Pods-TestTwo_Example-acknowledgements.markdown */,
-				83ED88C3818519F11AEAB22E7E6ECBEE /* Pods-TestTwo_Example-acknowledgements.plist */,
-				DEDAF5B3195CCD878210AC626CCCCFA6 /* Pods-TestTwo_Example-dummy.m */,
-				B21D16C591E3DE5D994B822F8293C5D4 /* Pods-TestTwo_Example-Info.plist */,
-				D46C00E1F6FC38A637843B6D329AA40E /* Pods-TestTwo_Example-umbrella.h */,
-				1E9B8FF34D8265130289E0C382A05BE8 /* Pods-TestTwo_Example.debug.xcconfig */,
-				1344A0E031FE2CF3B335E77D09B05611 /* Pods-TestTwo_Example.release.xcconfig */,
+				43DFFE4B637409B238DED434CF6320AA /* Pods-TestTwo_Example.modulemap */,
+				D2B598D9B2E40860DE9EA63C9619ED26 /* Pods-TestTwo_Example-acknowledgements.markdown */,
+				D048829E0486EECE0112BB7A602BCA1F /* Pods-TestTwo_Example-acknowledgements.plist */,
+				1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */,
+				B414C423BCE65035057C3231B0F05498 /* Pods-TestTwo_Example-frameworks.sh */,
+				C9518967382D3C09308077B4D922B20D /* Pods-TestTwo_Example-Info.plist */,
+				A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */,
+				10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */,
+				59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */,
 			);
 			name = "Pods-TestTwo_Example";
 			path = "Target Support Files/Pods-TestTwo_Example";
+			sourceTree = "<group>";
+		};
+		2B841FA8CBE596795383EBCFDC81ECD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C409B3543D94A4D30B0CDEA5BF73A05B /* TestTwo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,57 +135,86 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6E502E2B1275C0C3B57D30283C5EA55A /* Pod */ = {
+		852DE1488A1F04F401BDF5C94A917759 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFB5BD8E0B4C090D6CA5B406D800CC18 /* LICENSE */,
-				F176384979CEFBBD695B7A7781A8D6D2 /* README.md */,
-				CF88D106467C526D3D09F1B246268893 /* TestTwo.podspec */,
+				1DF8AD2F4606938CC875FF955F50CAB2 /* TestTwo.modulemap */,
+				717C885380A9805CB865EC8B03982699 /* TestTwo-dummy.m */,
+				1F55EF1FC758162B1B1885307D8E1AF6 /* TestTwo-Info.plist */,
+				3836C5F808052D3974BBCFA1FC718742 /* TestTwo-prefix.pch */,
+				38A2A1AABC79D5115A0AD5F49DBAF607 /* TestTwo-umbrella.h */,
+				760ED5B807E328D7B982B8DBF821FE78 /* TestTwo.debug.xcconfig */,
+				AE6226CB1B27A4D5D78B3788EAFD5B8D /* TestTwo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestTwo";
+			sourceTree = "<group>";
+		};
+		8CBDBB68DB1835E6FAC8301BE3EA360D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD43217EF3DBDBC77B276BE3B92B7D /* LICENSE */,
+				39685810BF244CD8B243469435F7F116 /* README.md */,
+				062C6A2AF45C24E0289F1F61FB5F4BE0 /* TestTwo.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7ACAF4CE8CD81A07BC58C99E208E250E /* Development Pods */ = {
+		9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB9ADD11F13033CF97A971EB42758C91 /* TestTwo */,
+				BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */,
+				B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */,
+				7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B44BE694E35C001C32F73319BF28F7E4 /* Pods-TestTwo_Tests */ = {
+		B393A52BBAC255EEE304F78E076FA1B4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC271AE5D1F0789C896644C3A0423B4A /* Pods-TestTwo_Tests.modulemap */,
-				DE13A96FCA08056C94D1829E1CBB7795 /* Pods-TestTwo_Tests-acknowledgements.markdown */,
-				7EE07A9EC720BD59BFA8B45F478C0321 /* Pods-TestTwo_Tests-acknowledgements.plist */,
-				5981FB8529901F95662D40A84769F056 /* Pods-TestTwo_Tests-dummy.m */,
-				B2DA4B5576FD3A31BE98F9AB445BCD78 /* Pods-TestTwo_Tests-Info.plist */,
-				55EDAFF698B5EE779796A14019A7BA4B /* Pods-TestTwo_Tests-umbrella.h */,
-				90013B0A6F0EE1A989B793AF079C6B80 /* Pods-TestTwo_Tests.debug.xcconfig */,
-				0E9C883CA4F3B7A40CE0415837C17FB7 /* Pods-TestTwo_Tests.release.xcconfig */,
+				19CFE3613E4E5013A0BF3011C4596A84 /* Pods-TestTwo_Example */,
+				B8E6670068F6D9522BB3BA0B2E043F46 /* Pods-TestTwo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8E6670068F6D9522BB3BA0B2E043F46 /* Pods-TestTwo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD85698689FAAD5948126B044BC24B /* Pods-TestTwo_Tests.modulemap */,
+				9BE0A2BB8B6A6DB3103966999ADE1874 /* Pods-TestTwo_Tests-acknowledgements.markdown */,
+				D83C7C594C921C77C788E4EB1B6237B5 /* Pods-TestTwo_Tests-acknowledgements.plist */,
+				D0B3A7223BF5F08EB32C04BF1C0B7003 /* Pods-TestTwo_Tests-dummy.m */,
+				8B9274E89E680BA39172A06315345CD8 /* Pods-TestTwo_Tests-Info.plist */,
+				65C36F633295394C1D8C791D1ECCFC80 /* Pods-TestTwo_Tests-umbrella.h */,
+				3962CC82309CFA8CFC5858CC29B115DC /* Pods-TestTwo_Tests.debug.xcconfig */,
+				BFB3AC4433E42201D74C89FA86B7BB71 /* Pods-TestTwo_Tests.release.xcconfig */,
 			);
 			name = "Pods-TestTwo_Tests";
 			path = "Target Support Files/Pods-TestTwo_Tests";
 			sourceTree = "<group>";
 		};
-		BC2E71E79FBBF077BF0ED2B5C1FD008E /* Targets Support Files */ = {
+		C409B3543D94A4D30B0CDEA5BF73A05B /* TestTwo */ = {
 			isa = PBXGroup;
 			children = (
-				36310916002B7AD2AA7EB0AB962E7A02 /* Pods-TestTwo_Example */,
-				B44BE694E35C001C32F73319BF28F7E4 /* Pods-TestTwo_Tests */,
+				D358AD604C63661D6729B83A1C5E32D9 /* ZGRMyTwoViewController.h */,
+				FFE1F2968178C99ECDAEF98C8D638E57 /* ZGRMyTwoViewController.m */,
+				8CBDBB68DB1835E6FAC8301BE3EA360D /* Pod */,
+				852DE1488A1F04F401BDF5C94A917759 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = TestTwo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7ACAF4CE8CD81A07BC58C99E208E250E /* Development Pods */,
+				2B841FA8CBE596795383EBCFDC81ECD7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				064DD558D573407BDAF360E74350421A /* Products */,
-				BC2E71E79FBBF077BF0ED2B5C1FD008E /* Targets Support Files */,
+				9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */,
+				B393A52BBAC255EEE304F78E076FA1B4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,36 +226,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7833FAC26C66AEE00118A36 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E7833FAE26C66AEE00118A36 /* ZGRMyTwoViewController.h */,
-				E7833FAD26C66AEE00118A36 /* ZGRMyTwoViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F6C616F430F03CE36740CE9C45DF0222 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CE6BD3C4C1301DE585265F124BDDF10F /* TestTwo.debug.xcconfig */,
-				F0D3902E8C880C0047110A4364C5AEA0 /* TestTwo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestTwo";
-			sourceTree = "<group>";
-		};
-		FB9ADD11F13033CF97A971EB42758C91 /* TestTwo */ = {
-			isa = PBXGroup;
-			children = (
-				E7833FAC26C66AEE00118A36 /* Classes */,
-				6E502E2B1275C0C3B57D30283C5EA55A /* Pod */,
-				F6C616F430F03CE36740CE9C45DF0222 /* Support Files */,
-			);
-			name = TestTwo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,7 +233,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7833FB226C66AEE00118A36 /* ZGRMyTwoViewController.h in Headers */,
 				F72C066845D939BA86A407BC33FD801A /* Pods-TestTwo_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,14 +241,40 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7833FB126C66AEE00118A36 /* ZGRMyTwoViewController.h in Headers */,
 				091402FFE1B8DA7A56BE29419634F942 /* Pods-TestTwo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9AAA7AEEA498A7118E127E56A1B971 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1318498781C524FDC9165CC95050E05B /* TestTwo-umbrella.h in Headers */,
+				E791049E4EE0BE9FA11709BFD15D79E7 /* ZGRMyTwoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF9607BDBA7A131363E154D2B1709C0 /* Build configuration list for PBXNativeTarget "TestTwo" */;
+			buildPhases = (
+				EE9AAA7AEEA498A7118E127E56A1B971 /* Headers */,
+				6C46BDE3F4E979853710F0724A3170F3 /* Sources */,
+				94EB93DAAA227AB90062CB56E0272FCA /* Frameworks */,
+				B41215E35547A0D06EF3FE548660CCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTwo;
+			productName = TestTwo;
+			productReference = 7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		726CF75197305053A72EE9D524787ACD /* Pods-TestTwo_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74865A94FF812D1DAF6A8FD9F339AD3 /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Tests" */;
@@ -260,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7F3FCC92541E634FAA3BFD21AB2F3D75 /* PBXTargetDependency */,
+				30A6FC90EE276D2032BECC77AB232CEB /* PBXTargetDependency */,
 			);
 			name = "Pods-TestTwo_Tests";
 			productName = "Pods-TestTwo_Tests";
@@ -279,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C8091899C9F2BEA991ACDA03282E8969 /* PBXTargetDependency */,
+				EFC7757ED27DD6695AF02AF2B1860CDB /* PBXTargetDependency */,
 			);
 			name = "Pods-TestTwo_Example";
 			productName = "Pods-TestTwo_Example";
@@ -304,7 +331,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 064DD558D573407BDAF360E74350421A /* Products */;
+			productRefGroup = 9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -317,6 +344,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		58FA1C9B2C8527B129681F98249B6978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41215E35547A0D06EF3FE548660CCFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				167124124D3D893AF5060148CC733A87 /* Pods-TestTwo_Example-dummy.m in Sources */,
-				E7833FAF26C66AEE00118A36 /* ZGRMyTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,31 +380,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FFCF620149578D0DE73AA2564B5DBD /* Pods-TestTwo_Tests-dummy.m in Sources */,
-				E7833FB026C66AEE00118A36 /* ZGRMyTwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C46BDE3F4E979853710F0724A3170F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F340DEC29AAA4B4C126F9A639A920A14 /* TestTwo-dummy.m in Sources */,
+				5D6BE798B492E959EFF6C4761E8061CA /* ZGRMyTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F3FCC92541E634FAA3BFD21AB2F3D75 /* PBXTargetDependency */ = {
+		30A6FC90EE276D2032BECC77AB232CEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TestTwo_Example";
 			target = 98AB16A34AC4F736A0AF407BD58EDF59 /* Pods-TestTwo_Example */;
-			targetProxy = 28E42FD03618E990339C74E74294FB7B /* PBXContainerItemProxy */;
+			targetProxy = 0C3B78AA9D03C30EA765519AC6BB80A7 /* PBXContainerItemProxy */;
 		};
-		C8091899C9F2BEA991ACDA03282E8969 /* PBXTargetDependency */ = {
+		EFC7757ED27DD6695AF02AF2B1860CDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestTwo;
 			target = 1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */;
-			targetProxy = 2FE00CCAF20F0350341B638B8504568F /* PBXContainerItemProxy */;
+			targetProxy = 3B2FE95990ED68B7068D4CC376BFA3DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0E144DE7EBC60CCD1C3E2E0901520EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E9C883CA4F3B7A40CE0415837C17FB7 /* Pods-TestTwo_Tests.release.xcconfig */;
+			baseConfigurationReference = BFB3AC4433E42201D74C89FA86B7BB71 /* Pods-TestTwo_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -470,7 +511,7 @@
 		};
 		2ED65F0BE6AF42F74833027CE7ABE21E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1344A0E031FE2CF3B335E77D09B05611 /* Pods-TestTwo_Example.release.xcconfig */;
+			baseConfigurationReference = 59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -503,7 +544,7 @@
 		};
 		3D5685526A020206A09A3577FD0C5CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9B8FF34D8265130289E0C382A05BE8 /* Pods-TestTwo_Example.debug.xcconfig */;
+			baseConfigurationReference = 10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -533,23 +574,70 @@
 			};
 			name = Debug;
 		};
-		5938DB8F6522D004DF07DD96654DEF4C /* Release */ = {
+		48708BE24862C696A1360179EF5B2E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D3902E8C880C0047110A4364C5AEA0 /* TestTwo.release.xcconfig */;
+			baseConfigurationReference = 760ED5B807E328D7B982B8DBF821FE78 /* TestTwo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestTwo/TestTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestTwo/TestTwo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestTwo/TestTwo.modulemap";
+				PRODUCT_MODULE_NAME = TestTwo;
+				PRODUCT_NAME = TestTwo;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BE4D85AA5F76071C6202429405062EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6226CB1B27A4D5D78B3788EAFD5B8D /* TestTwo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestTwo/TestTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestTwo/TestTwo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestTwo/TestTwo.modulemap";
+				PRODUCT_MODULE_NAME = TestTwo;
+				PRODUCT_NAME = TestTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		734FC347B8C2B24808858313A6E1ECBD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90013B0A6F0EE1A989B793AF079C6B80 /* Pods-TestTwo_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3962CC82309CFA8CFC5858CC29B115DC /* Pods-TestTwo_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -576,19 +664,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8FB16B5754AF7C2A201B8E42945A4DED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE6BD3C4C1301DE585265F124BDDF10F /* TestTwo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -647,7 +722,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -656,15 +732,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		007F4E7D7DB28FA79515A289411032C3 /* Build configuration list for PBXAggregateTarget "TestTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FB16B5754AF7C2A201B8E42945A4DED /* Debug */,
-				5938DB8F6522D004DF07DD96654DEF4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		223F934EDFAF209BF1C6A07B619F670D /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -679,6 +746,15 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF9607BDBA7A131363E154D2B1709C0 /* Build configuration list for PBXNativeTarget "TestTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48708BE24862C696A1360179EF5B2E0A /* Debug */,
+				5BE4D85AA5F76071C6202429405062EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

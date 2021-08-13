@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZGRMyTwoViewController.h"
 
 FOUNDATION_EXPORT double TestTwoVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestTwoVersionString[];
