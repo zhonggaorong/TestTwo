@@ -1,0 +1,22 @@
+{
+  "name": "TestTwo",
+  "version": "1.0.0",
+  "summary": "我是第二个组件.",
+  "description": "我是第二个组件的描述文件，需要比标题长",
+  "homepage": "https://github.com/zhonggaorong/TestTwo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhonggaorong": "zhonggaorong@qishihuandian.com"
+  },
+  "source": {
+    "git": "https://github.com/zhonggaorong/TestTwo.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestTwo/Classes/**/*"
+}
